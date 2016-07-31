@@ -7,4 +7,4 @@ title: About
 [facebook](https://www.facebook.com/yeongho.kim.3)
 [twitter](https://twitter.com/yeonghoey)
 
-I'm writing codes.
+I write codes.
