@@ -1,15 +1,25 @@
 ---
-title: Markdown Cheatsheet Demo
-updated: 2015-09-04 22:43
+title: Markdown Cheatsheet
 ---
-
-> This is Markdown Cheatsheet Demo for **The Plain**, this Jekyll theme. Please check the raw content of this file for the markdown usage.
 
 ## Typography Elements in One
 
 Let's start with a informative paragraph. **This text is bolded.** But not this one! _How about italic text?_ Cool right? Ok, let's **_combine_** them together. Yeah, that's right! I have code to highlight, so `ThisIsMyCode()`. What a nice! Good people will hyperlink away, so [here we go](#) or [http://www.example.com](http://www.example.com).
 
+```
+**This text is bolded.**
+_How about italic text?_
+**_combine_** 
+`ThisIsMyCode()`
+[here we go](#)
+[http://www.example.com](http://www.example.com).
+```
+
+
 <div class="divider"></div>
+```
+<div class="divider"></div>
+```
 
 ## Headings H1 to H6
 
@@ -31,11 +41,23 @@ Let's start with a informative paragraph. **This text is bolded.** But not this 
 
 Let's say you have text that you want to refer with a footnote, you can do that too! This is an example for the footnote number one [^1]. You can even add more footnotes, with link! [^2]
 
+```
+[^1], [^2]
+
+# At the end of document
+[^1]: Footnote number one yeah baby!
+[^2]: A footnote you can link to - [click here!](#)
+```
+
 <div class="divider"></div>
 
 ## Blockquote
 
 > Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible. --Francis of Assisi
+
+```
+> Start by doing what's necessary; ...
+```
 
 **NOTE:** This theme does NOT support nested blockquotes.
 
@@ -46,9 +68,20 @@ Let's say you have text that you want to refer with a footnote, you can do that 
 1. First order list item
 2. Second item
 
+```
+1. First order list item
+2. Second item
+```
+
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
+
+```
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+```
 
 <div class="divider"></div>
 
@@ -81,12 +114,27 @@ But let's throw in a <b>tag</b>.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+```
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+```
+
 ### Table 2: With Typography Elements
 
 Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
+
+```
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+```
 
 <div class="divider"></div>
 
@@ -114,10 +162,17 @@ ___
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n1a7o44WxNo" frameborder="0" allowfullscreen></iframe>
 
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n1a7o44WxNo" frameborder="0" allowfullscreen></iframe>
+```
+
 ### Image
 
 ![Minion](http://octodex.github.com/images/minion.png)
 
-[^1]: Footnote number one yeah baby!
+```
+![Minion](http://octodex.github.com/images/minion.png)
+```
 
+[^1]: Footnote number one yeah baby!
 [^2]: A footnote you can link to - [click here!](#)
