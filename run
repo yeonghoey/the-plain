@@ -1,0 +1,8 @@
+#!/bin/bash
+
+tmux split-window 'bundler exec jekyll serve'
+tmux split-window 'bundler exec guard'
+
+# wait for jekyll is up.
+sleep 3
+open http://localhost:4000
