@@ -45,7 +45,7 @@ also hides not intended **affordances** by encapsulations.  It places
 **constraints** for making things hard to fail.
 
 
-## Mapping, Feedback, and Conceptual Models
+## Mapping and Feedback
 
 **Mapping** relates to layout of controls and displays.  Consider the situation 
 that you must control stage lighting.  There are lots of light bulbs and you 
@@ -61,13 +61,16 @@ Let's see another example.  I'm writing this post in **Vim** editor.  It maps
 `hjkl` keys on the keyboard to the movement of cursor. Each key stands for 
 **LEFT**, **DOWN**, **UP**, **RIGHT** respectively. 
 
-**Vim**'s way is for efficiency and I love it.  But it's a bad mapping from a
-design perspective.  It's one of the reasons why people feel frustrated when 
-they try to use **Vim**
+**Vim**'s way is for efficiency.  You will love it once get used to.
+But it's a bad mapping from a design perspective.  It's one of the reasons
+why people feel frustrated when they try to use **Vim**
 
-Conversely, most traditional FPS games have `wasd` mapping for the player
-character's movement.  It's very natural because the way of keys arranged
-exactly stands for the direction of the movement.
+Conversely, most  games have `wasd` mapping for the player character's movement.
+It's very natural because the way of keys arranged exactly stands for 
+the direction of the movement.
+
+> `wasd` naturally mapped to the movement of a *character*.  
+> `hjkl` **NOT** naturally mapped to the movement of *cursor*.  
 
 **Mapping** alleviates the complexity of controls.  But by only great mapping 
 can't do much.  The more complex the device is, the more harder we control.  We 
@@ -75,3 +78,22 @@ need feedback to understand how it works.  If you have used a iPod Shuffle, you
 may have felt what I mean.  It intentionally removed display, which causes lack 
 of feedback.  It has a great mapping, but you can't select the exact play list 
 you want.
+
+**Feedback** plays an important role in design.  When people are notified what
+they just have done is a mistake at appropriate moment, people learn.  
+Feedback enhances understanding of the product including the mapping.
+
+The amount of feedback should be adequate.  Poor feedback makes people frustrated.
+It makes people hard to understand what's happening.  It's simply a root of error.
+Too much feedback is also a problem.  It makes people annoyed.  What's more, 
+it makes people ignore some feedback which is  really important.
+
+Let's see the programming example.  The nature of feedback exactly makes sense on
+writing error messages.  Many programming books suggests that we should not simply
+ignore warning messages.  Lots of warnings messages can conceal some important errors.
+Lack of detailed information is also a problem.
+What if you get a simple message `error occurred.` after calling a method?
+You will get lost.
+
+
+## Conceptual Models
