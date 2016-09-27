@@ -97,3 +97,9 @@ You will get lost.
 
 
 ## Conceptual Models
+> Conceptual models are valuable in providing understanding,
+> in predicting how things will behave, and in figuring out what to do
+> when things do not go as planned.
+
+Consider traditional watches.  Most of them have relatively many features for
+their buttons.  And they seem to have no proper conceptual models.
