@@ -2,13 +2,17 @@
 title: "Book Review: The Design of Everyday Things"
 ---
 
+I decided to write a personal programming blog.
+To my surprise, the first post is about a design book.
+
 ![Title]({{ site.url }}/assets/the-design-of-everyday-things-title.jpg)
 
 # Why read?
 I faced lots of recommendations of this book from programming books and blog posts,
-even though it's a design book.
+although it's a design book.  Finishing the book, I totally agree 
+that it's a must-read for every programmer.
 
-For those who wonder how this book matters for programmers, I quote a passage
+For those who wonder how it matters for programmers, I quote a passage
 about **the paradox of technology**.
 
 > The same technology that simplifies life by providing more functions in each
@@ -17,7 +21,7 @@ about **the paradox of technology**.
 
 I think it makes sense to both the application and the code itself.
 
-I'll explain important concepts from the book, with some programming-related examples
+I'll show important concepts from the book, with some programming-related examples
 I conceived.
 
 
@@ -98,15 +102,16 @@ writing error messages.  Many programming books suggests that we should not simp
 ignore warning messages.  Lots of warnings messages can conceal important errors.
 
 Lack of detailed information is also a problem.
-What if you get a simple message `error occurred`?  You will get lost.
+What if you get a simple message `error occurred`?  You get lost.
 
 
 ## Conceptual Models
-> Conceptual models are valuable in providing understanding,
+> **Conceptual models** are valuable in providing understanding,
 > in predicting how things will behave, and in figuring out what to do
 > when things do not go as planned.
 
 Consider traditional watches.  Most of them have relatively many features for
 their buttons.  And they seem to have no proper conceptual models.
+
 
 [^1]: It's actually [Spacemacs](http://spacemacs.org/), which is a plugin-powered *Emacs* with *Vim* key mappings.
