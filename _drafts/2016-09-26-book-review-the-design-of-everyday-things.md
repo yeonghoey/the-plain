@@ -2,8 +2,8 @@
 title: "Book Review: The Design of Everyday Things"
 ---
 
-I decided to write a personal programming blog.
-To my surprise, the first post is about a design book.
+I finally made my mind to write a personal programming blog in English.
+To my surprise, the first post is about a design book, not programming things.
 
 ![Title]({{ site.url }}/assets/the-design-of-everyday-things-title.jpg)
 
