@@ -81,7 +81,7 @@ the direction of the movement.
 > `wasd` naturally **mapped** to the movement of a *character*.  
 
 **Mapping** alleviates the complexity of controls.  But a great mapping alone
-can't do much.  The more complex the device is, the more harder we control.  We 
+can't do much.  The more complex the device is, the harder we control.  We 
 need **feedback** to understand how it works.
 
 If you have used a iPod Shuffle, you may have feelings what I mean.
@@ -111,7 +111,98 @@ What if you get a simple message `error occurred`?  You get lost.
 > when things do not go as planned.
 
 Consider traditional watches.  Most of them have relatively many features for
-their buttons.  And they seem to have no proper conceptual models.
+their buttons.  As a result, they tend to have many modes without proper conceptual models.
+A button is mapped for starting timer on the timer mode and for increasing number on 
+the time resetting mode.  Because there is *no* **conceptual model**,
+I always forget the mappings and feel frustrated.
+
+I recently tried to use a pebble watch[^2].  I noticed that it has a nice conceptual model with proper mappings.
+
+![PebbleButtons]({{ site.url }}/assets/pebble-watch-conceptual-model.jpeg)
+
+Based on these simple mappings, every application follows the conceptual model
+of scrolling up and down with `Up` and `Down`, pushing and popping contexts with `Back` and `Select`.
+
+I immediately understood how it works.  I enjoyed the experience.
+
+
+## requests and urllib2
+
+If you used `python` for web client, you probably wrote the program with `requests` library,
+which is a *de facto* standard in python community.  By the way, did you know `urllib2` which is 
+a standard library for doing the almost same thing?  Let me explain why `requests` is more popular
+on the ground of the preceding concepts. 
+
+```python
+import requests
+requests.get('http://google.com')
+
+import urllib2
+urllib2.urlopen('http://google.com')
+```
+
+So far, there seems almost no difference.
+But with considering **mapping**, `requests` is better,
+Because it directly maps `HTTP GET` requests to `requests.get()` method.
+
+I could construct the **conceptual model** of `requests`.
+I can expect `requests.post()` method, which will make a `HTTP POST` request.
+And, actually it has the method.
+
+On the other hand, `urllib2` enforces a different model (*what is **urlopen**ing?*).
+It was hard to find out how to make a `HTTP POST` request with `urllib2`.
+After wading through its document, I found an example code:
+
+```python
+import urllib
+import urllib2
+
+url = 'http://www.someserver.com/cgi-bin/register.cgi'
+values = {'name' : 'Michael Foord',
+          'location' : 'Northampton',
+          'language' : 'Python' }
+
+data = urllib.urlencode(values)
+req = urllib2.Request(url, data)
+response = urllib2.urlopen(req)
+the_page = response.read()
+```
+
+Notice that the term `post` is not in the code.
+Here is the explanation:
+
+> you can use a POST to transmit arbitrary data to your own application.
+> In the common case of HTML forms, the data needs to be encoded in a standard way,
+> and then passed to the Request object as the data argument.
+> The encoding is done using a function from the urllib library not from urllib2.  
+> ...  
+> If you do not pass the data argument, urllib2 uses a GET request.
+
+It's wordy.  Here is the same code using `requests`.
+
+```python
+import requests
+url = 'http://www.someserver.com/cgi-bin/register.cgi'
+data = {'name' : 'Michael Foord',
+        'location' : 'Northampton',
+        'language' : 'Python' }
+
+response = requests.post(url, data=data)
+```
+It reads naturally, as expected.  It seems obvious which one is better.
+
+I'm showing this neither for blaming `urllib2` nor flattering `requests`.
+But for showing how the the design concepts make sense to the programming world.
+
+
+## Summary
+Technology is getting complicated.
+The speed of change is far faster then the speed of human capacity improvements.
+The design concepts in this book are all for keeping things simple, less error-prone.
+
+Programming is no exception.  In some sense, programming is nothing but a logic design.
+With the concepts in mind, we would become a better programmer.
 
 
 [^1]: It's actually [Spacemacs](http://spacemacs.org/), which is a plugin-powered *Emacs* with *Vim* key mappings.
+[^2]: It's a newer than the one in the following picture.
