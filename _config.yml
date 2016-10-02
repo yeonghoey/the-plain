@@ -1,55 +1,52 @@
 # Site Info
 title:              "Yeongho Kim"
 description:        "Lessons learned"
-google_verify:      MwNuvjXT2dbjazmB9n6L9uJrkwj8OkMWz9-aXnWydT0 # Put your Google Verification here
-google_analytics:   UA-81640960-1 # Put your Google Analytics code
+google_verify:      MwNuvjXT2dbjazmB9n6L9uJrkwj8OkMWz9-aXnWydT0  # Put your Google Verification here
+google_analytics:   UA-81640960-1                                # Put your Google Analytics code
 
 # Author Info
 author_name:        "Yeongho Kim"
 author_email:       yeonghoey@gmail.com
-author_gravatar:    56bf5ed57786d8d98ca82acc2a7d91e9 # Gravatar md5 hash
+author_gravatar:    56bf5ed57786d8d98ca82acc2a7d91e9  # Gravatar md5 hash
 twitter_username:   yeonghoey
 
 # Site Settings
-baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /notes/:title # Post permalink
-timezone:           Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+baseurl: ""               # Base URL must end WITHOUT a slash, default: ""
+permalink: /notes/:title  # Post permalink
+timezone: Asia/Seoul      # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
-highlighter:        rouge
-#markdown:           redcarpet
-#redcarpet:
-#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
-markdown:           kramdown
+highlighter: rouge
+markdown: kramdown
 kramdown:
-    input:          GFM
+    input: GFM
 sass:
-    style:          :compressed
+    style: :compressed
 
 # Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+include: [ "robots.txt" ]
+exclude: [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
 gems:
   - jekyll-sitemap
 
 compress_html:
-    clippings:      all
+    clippings: all
     ingore:
-        envs:       [ "test" ]
+        envs: [ "test" ]
 
 defaults:
   -
     scope:
-      path:         ""
+      path: ""
     values:
-      layout:       "null"
+      layout: "null"
   -
     scope:
-      type:         "pages"
+      type: "pages"
     values:
-      layout:       "page"
+      layout: "page"
   -
     scope:
-      type:         "posts"
+      type: "posts"
     values:
-      layout:       "post"
+      layout: "post"
