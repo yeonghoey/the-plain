@@ -24,15 +24,13 @@ sass:
     style: :compressed
 
 # Other Params
-include: [ "robots.txt" ]
-exclude: [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+include: ["robots.txt"]
+exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile"]
 gems:
   - jekyll-sitemap
 
 compress_html:
     clippings: all
-    ingore:
-        envs: [ "test" ]
 
 defaults:
   -
