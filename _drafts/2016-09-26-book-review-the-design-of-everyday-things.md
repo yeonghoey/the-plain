@@ -5,21 +5,26 @@ title: "Book Review: The Design of Everyday Things"
 ![Title]({{ site.url }}/assets/the-design-of-everyday-things-title.jpg)
 
 # Why read?
-Faced lots of recommendations from programming books and blog posts,
+I faced lots of recommendations of this book from programming books and blog posts,
 even though it's a design book.
 
-
-# The Paradox of Technology
+For those who wonder how this book matters for programmers, I quote a passage
+about **the paradox of technology**.
 
 > The same technology that simplifies life by providing more functions in each
 > device also complicates life by making the device harder to learn, harder to
 > use.  This is the paradox of technology and the challenge for the designer.
 
+I think it makes sense to both the application and the code itself.
+
+I'll explain important concepts from the book, with some programming-related examples
+I conceived.
+
 
 ## Affordances, Signifiers and Constraints
 
-Concepts for making things hard to fail.
-Here are definitions about **affordances** and **signifiers**:
+These concepts are about making things hard to fail.
+Here are definitions about **affordances** and **signifiers** from the book:
 
 - **Affordances** are the possible interactions between people and the 
 environment.
@@ -37,7 +42,7 @@ done.
 **signifiers** is essential for designing **constraints**.
 
 > The iron plate on a door **signifies** opening by pushing.  
-> The iron plate also places a **contraint** of pulling.
+> The iron plate also places a **contraint** of pulling. (Because there is no handle to grip)
 
 These concepts are reminicent of interfaces and encapsulations in programming.
 A well designed interface **signifies** how to use the library properly.   It
