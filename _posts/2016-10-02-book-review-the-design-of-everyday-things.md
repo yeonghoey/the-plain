@@ -7,7 +7,7 @@ To my surprise, the first post is about a design book, not programming things.
 
 ![Title]({{ site.url }}/assets/the-design-of-everyday-things-title.jpg)
 
-# Why read?
+## Why read?
 I faced lots of recommendations of this book from programming books and blog posts,
 even though it's a design book.  Finishing the book, I totally agree
 that it's a must-read for every programmer.
