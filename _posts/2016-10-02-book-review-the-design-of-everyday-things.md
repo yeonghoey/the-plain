@@ -128,7 +128,7 @@ The net result is to avoid using those features.
 I recently tried to use a pebble watch[^2].
 I noticed that it has a nice **conceptual model** with proper **mappings**.
 
-![PebbleButtons]({{ site.url }}/assets/pebble-watch-conceptual-model.jpeg)
+![PebbleButtons]({{ site.url }}/assets/pebble-watch-conceptual-model.jpg)
 
 Based on the preceding simple **mappings**, every application follows the **conceptual model**
 of scrolling up and down with `Up` and `Down`, pushing and popping contexts with `Select` and `Back`.
