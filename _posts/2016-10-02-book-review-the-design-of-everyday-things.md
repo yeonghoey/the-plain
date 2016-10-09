@@ -57,17 +57,18 @@ also hides unintended **affordances** by encapsulations.  They place
 
 ## Mapping and Feedback
 
-**Mapping** relates to the layout of controls and displays.  Consider the situation 
-that you must do stage lighting.  There are lots of lights and you should continuously turn
+**Mapping** relates to the layout of controls and displays.  Consider a situation
+in which you are tasked with stage lighting.  There are lots of lights and you must continually turn
 some of them on and off at exact moments.  The problem is
-that most traditional stage lighting controls simply place many buttons on a panel in a row.
-You have to memorize which button controls which light.  It's a challenge and error-prone.
+that most traditional stage lighting controls simply place many buttons in a row on a panel.
+You have to memorize which button controls which light.  This poses a challenge and is error-prone.
 
 ![StageLighting]({{ site.url }}/assets/stage-lighting-control.jpg)
 
-What if the buttons were arranged in the way the lights arranged?  Maybe the shape of controller is
-not flat panel. But you can just map the buttons and lights.
-It's easier to learn and less error prone.  It's better tradeoff.
+What if the buttons were arranged in the same way the lights were arranged?
+Perhaps the shape of the controller wouldn't be a flat panel.
+But you could map the buttons accordingly with th lights.
+This would be easier to learn and less error-prone.  It would be a better system.
 
 Let's see another example.  I'm writing this post in **Vim** editor[^1].  It maps
 `hjkl` keys to the movement of cursor. Each key stands for
