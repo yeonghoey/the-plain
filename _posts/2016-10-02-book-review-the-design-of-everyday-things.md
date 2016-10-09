@@ -2,18 +2,18 @@
 title: "Book Review: The Design of Everyday Things"
 ---
 
-I finally made my mind to write a personal programming blog in English.
-To my surprise, the first post is about a design book, not programming things.
+I finally made my mind up to write a personal programming blog in English.
+To my surprise, the first post is about a design book, not programming.
 
 ![Title]({{ site.url }}/assets/the-design-of-everyday-things-title.jpg)
 
 ## Why read?
-I faced lots of recommendations of this book from programming books and blog posts,
+I had lots of recommendations of this book from programming books and blog posts,
 even though it's a design book.  Finishing the book, I totally agree
 that it's a must-read for every programmer.
 
 For those who wonder how it matters for programmers, I quote a passage
-about **the paradox of technology**.
+about **the paradox of technology**:
 
 > The same technology that simplifies life by providing more functions in each
 > device also complicates life by making the device harder to learn, harder to
@@ -33,25 +33,25 @@ Here are definitions about **affordances** and **signifiers** from the book:
 - **Affordances** are the possible interactions between people and the
 environment.
 - Perceived **affordances** often act as **signifiers**, but they can be ambiguous.
-- **Signifiers** signal things what actions are possible and how they should be
+- **Signifiers** signal things, what actions are possible and how they should be
 done.
 - **Signifiers** must be perceivable.
 
 > A door **affords** opening.  
 > It also **affords** being smashed.  
 > The door's knob **signifies** opening.  
-> The knob **signifies** whether pushed, pulled, or slid.
+> The knob **signifies** whether it's pushed, pulled, or slid.
 
-**Contraints** work for making things hard to fail.  **Affordances** and
-**signifiers** is essential for designing **constraints**.
+**Constraints** work for making things hard to fail.  **Affordances** and
+**signifiers** are essential for designing **constraints**.
 
 > The iron plate on a door **signifies** opening by pushing.  
-> The iron plate also places a **contraint** of pulling. (Because there is no handle to grip)
+> The iron plate also places a **constraint** of pulling. (Because there is no handle to grip)
 
 These concepts are reminiscent of the notion of *interfaces* and *encapsulations*
-in object oriented programming.
-A well designed interface **signifies** how to use the library properly.  It
-also hides not intended **affordances** by encapsulations.  They place
+in object-oriented programming.
+A well-designed interface **signifies** how to use the library properly.  It
+also hides unintended **affordances** by encapsulations.  They place
 **constraints** for making things hard to fail.
 
 
