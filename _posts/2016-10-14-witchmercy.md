@@ -63,12 +63,12 @@ I calculated all possible cases by brute force algorithm[^4].
 ## Simplification
 Ignore the order of buying bundles.  Consider the following cases:
 
-- 2 5 11
-- 2 11 5
-- 5 11 2
+- 2, 5, 11
+- 2, 11, 5
+- 5, 11, 2
 - ...
 
-These are all considered as `2 5 11`.  
+These are all considered as `2, 5, 11`.  
 With this simplification, the algorithm becomes easier and faster.
 
 
