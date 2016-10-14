@@ -5,10 +5,7 @@ title: Winning Mercy's Halloween Witch skin
 ![WitchMercy]({{ site.url }}/assets/witchmercy.jpg)
 
 ## Problem
-Winning **Overwatch Mercy's Halloween Witch skin** at the minimum cost.
-
-
-## Data
+Winning **Overwatch Mercy's Halloween Witch skin** at the minimum cost.  
 There are five bundle types:
 
 | box count | cost(won) | per box(won) |
