@@ -88,7 +88,7 @@ I decided to follow the best one of `p=1/60` case.
 **I bought 2 bundles of 11 boxes and won the witch skin at the 22nd try!**  
 
 [^1]: This is from a [Korean post](http://snaketeacher1.tistory.com/288).
-[^2]: Because there are 4 Halloween legendary skin. By assumption 2, we can simply assume like that.
+[^2]: There are 4 Halloween legendary skin. By assumption 2, we can simply assume like that.
 [^3]: I currently have 1100 credits, and probably get about 2000 credits after opening 50 boxes.
 [^4]: The code is [here](https://github.com/yeonghoey/witchmercy)
 [^5]: The best solution of `p=1/40` case.
