@@ -2,10 +2,11 @@
 title: "Book Review: The Design of Everyday Things"
 ---
 
+![Title]({{ site.url }}/assets/the-design-of-everyday-things-title.jpg)
+
 I finally made my mind up to write a personal programming blog in English.
 To my surprise, the first post is about a design book, not programming.
 
-![Title]({{ site.url }}/assets/the-design-of-everyday-things-title.jpg)
 
 ## Why read?
 I had lots of recommendations of this book from programming books and blog posts,
