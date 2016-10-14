@@ -2,10 +2,9 @@
 title: Winning Mercy's Halloween Witch skin
 ---
 
-## Goal
-
 ![WitchMercy]({{ site.url }}/assets/witchmercy.jpg)
 
+## Goal
 Winning **Overwatch Mercy's Halloween Witch skin** at the minimum cost.
 
 
