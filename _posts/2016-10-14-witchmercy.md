@@ -4,7 +4,7 @@ title: Winning Mercy's Halloween Witch skin
 
 ![WitchMercy]({{ site.url }}/assets/witchmercy.jpg)
 
-## Goal
+## Problem
 Winning **Overwatch Mercy's Halloween Witch skin** at the minimum cost.
 
 
@@ -28,8 +28,10 @@ There are five bundle types:
 
 
 ## Solution
-Calculate the expected cost for winning the witch skin.  
-I can stop when I win the skin.  For example:
+Calculate the expected cost for **buying 50 or more boxes 
+under the condition that I can stop buying when I won the skin**.
+
+Here is the example:
 
 > When I buy `x` boxes for `y` won with the chance `p` of winning the skin:
 
@@ -46,8 +48,16 @@ count = x + xx
 cost = y + f*yy
 ```
 
+And the next case of `(xxx, yyy)` where `ff` is `(1-p)^xx`:
+
+```
+count = x + xx + xxx
+cost = y + f*yy + f*ff*yyy
+```
+
 Calculate these until the `count` is greater than or equal to **50**.  
-Calculate all possible cases by brute force algorithm[^4].
+
+I calculated all possible cases by brute force algorithm[^4].
 
 
 ## Simplification
@@ -82,10 +92,12 @@ With `p = 1/60`, I got the following result:
 40979.78, [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 11, 11]
 41110.21, [2, 24, 24]
 ```
-Because buying 2 boxes for 25 times is cumbersome[^5],  
-I decided to follow the best one of `p=1/60` case.
+Because buying 2-box bundles for 25 times is cumbersome[^5],  
+I decided to follow the best one of `p=1/60` case with buying 11-box bundles first.
 
-**I bought 2 bundles of 11 boxes and won the witch skin at the 22nd try!**  
+
+## The Net Result
+I bought **two 11-box bundles** and won the witch skin at **the 22nd try**!
 
 [^1]: This is from a [Korean post](http://snaketeacher1.tistory.com/288).
 [^2]: There are 4 Halloween legendary skins. By assumption 2, we can simply assume like that.
