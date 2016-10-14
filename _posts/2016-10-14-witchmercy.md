@@ -23,8 +23,8 @@ There are five bundle types:
 
 ## Assumption
 1. I can win a legendary skin every 10 boxes[^1].
-1. The chances of winning Halloween skins are drastically higher then others during the event season.
-1. I have **1/40 or slight less chance**[^2] of winning the witch skin for each box.
+1. The chances of winning Halloween skins are drastically higher than others during the event season.
+1. I have **1/40 or slightly less chance**[^2] of winning the witch skin for each box.
 1. I will **buy 50 boxes**[^3] at most.
 
 
@@ -47,12 +47,12 @@ count = x + xx
 cost = y + f*yy
 ```
 
-Calculate these until the `count` is greater or equal than **50**.  
+Calculate these until the `count` is greater than or equal to **50**.  
 Calculate all possible cases by brute force algorithm[^4].
 
 
 ## Simplification
-Ignore the order of buying bundles.  Consider following cases:
+Ignore the order of buying bundles.  Consider the following cases:
 
 - 2 5 11
 - 2 11 5
@@ -60,11 +60,11 @@ Ignore the order of buying bundles.  Consider following cases:
 - ...
 
 These are all considered as `2 5 11`.  
-With this simplification, The algorithm becomes easier and faster.
+With this simplification, the algorithm becomes easier and faster.
 
 
 ## Result
-With `p = 1/40`, I got following result:
+With `p = 1/40`, I got the following result:
 
 ```
 34900.83, [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -74,7 +74,7 @@ With `p = 1/40`, I got following result:
 35245.33, [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5, 5, 5]
 ```
 
-With `p = 1/60`, I got following result:
+With `p = 1/60`, I got the following result:
 
 ```
 40557.05, [2, 2, 2, 11, 11, 11, 11]
@@ -86,7 +86,7 @@ With `p = 1/60`, I got following result:
 Because buying 2 boxes for 25 times is cumbersome[^5],  
 I decided to follow the best one of `p=1/60` case.
 
-**I bought 2 bundles of 11 boxes and won the witch skin at the 22th try!**  
+**I bought 2 bundles of 11 boxes and won the witch skin at the 22nd try!**  
 
 [^1]: This is from a [Korean post](http://snaketeacher1.tistory.com/288).
 [^2]: Because there are 4 Halloween legendary skin. By assumption 2, we can simply assume like that.
