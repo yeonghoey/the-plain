@@ -71,48 +71,49 @@ Perhaps the shape of the controller wouldn't be a flat panel.
 But you could map the buttons accordingly with th lights.
 This would be easier to learn and less error-prone.  It would be a better system.
 
-Let's see another example.  I'm writing this post in **Vim** editor[^1].  It maps
-`hjkl` keys to the movement of cursor. Each key stands for
+Let's take a look at another example.  I'm writing this post in **Vim** editor[^1].  It maps
+`hjkl` keys to the movement of the cursor. Each key stands for
 **Left**, **Down**, **Up**, **Right** respectively.
 
-**Vim**'s way is for efficiency.  With the mapping,
+**Vim**'s way is used to increase efficiency.  With the mapping,
 you can keep your fingers on the middle row white navigating the contents of files.
-You will love it once you get used to.
+You will love it once you get used to it.
 
-But it's a bad **mapping** from a design perspective.  It's not natural.
+However, it is bad **mapping** from a design perspective.  It's not natural.
 It's one of the reasons why people feel frustrated when they try to use the editor.
 
 Conversely, most  games have `wasd` mapping for the player character's movement.
-It's very natural because the way of keys arranged exactly stands for
-the direction of the movement.
+It's very natural because the way the keys are arranged signifies
+the exact the direction of the movement.
 
 > `hjkl` *NOT* naturally **mapped** to the movement of *cursor*.  
 > `wasd` naturally **mapped** to the movement of a *character*.  
 
 **Mapping** alleviates the complexity of controls.  But a great mapping alone
-can't do much.  The more complex the device is, the harder we control.  We
+can't do much.  The more complex the device is, the harder we control it.  We
 need **feedback** to understand how it works.
 
-If you have used *iPod Shuffle*, you may have feels what I mean.
-It intentionally removed display, which causes lack of **feedback**.
+If you have used an *iPod Shuffle*, you may have a feeling for what I mean.
+It intentionally removed the display, which causes a lack of **feedback**.
 Although it has a relatively great **mapping**,
 it's hard to understand because the blinking lamp is the only feedback.
 
-**Feedback** plays an important role in understanding.
-When people made a mistake and were notified at an appropriate moment, they learn. 
-**Feedback** enhances understanding of the product.
+**Feedback** plays an important role in understanding something.
+When people made mistakes and are notified at an appropriate moment, they learn.
+**Feedback** enhances the understanding of a product.
 
-The amount of **feedback** should be adequate.  Poor **feedback** makes people frustrated.
-It makes people hard to understand what's happening.  It's simply a root of error.
-Too much **feedback** is also a problem.  It makes people annoyed.  What's more, 
-it makes people ignore some feedback which is important.
+The amount of **feedback** should be adequate.  Poor **feedback** frustrates people.
+It makes it difficult for people to understand what's happening.
+It's simply the root of error.
+Too much **feedback** is also a problem.  It annoys people.  Additionally,
+it causes people to ignore some feedback that is important.
 
-Let's see the programming example.  The nature of **feedback** exactly makes sense on
-writing error messages.  Many programming books suggest that we should not simply
-ignore warning messages.  The reason is lots of warnings messages could conceal important errors.
+Let's look at the programming example.  The nature of the **feedback** exactly makes sense
+when writing error messages.  Many programming books suggest that we should not simply
+ignore warning messages.  This is because lots of warnings messages could conceal important errors.
 
-Lack of detailed information is also a problem.
-What if you get a simple message `error occurred`?  You get lost.
+A lack of detailed information is also a problem.
+What if a simple message `error occurred`?  You get lost.
 
 
 ## Conceptual Models
@@ -123,8 +124,8 @@ What if you get a simple message `error occurred`?  You get lost.
 Consider traditional watches.  Most of them have relatively many features for
 their buttons.  As a result, they tend to have many modes without proper conceptual models.
 For example, the same button is mapped for starting the timer on the stopwatch mode and
-for increasing number on the time adjusting mode.  Because there is *no* **conceptual model**,
-I always forget the mappings and feel frustrated when I try to use stopwatch or to adjust time.
+for increasing the number on the time adjusting mode.  Because there is *no* **conceptual model**,
+I always forget the mappings and feel frustrated when I try to use my stopwatch or to adjust time.
 The net result is to avoid using those features.
 
 I recently tried to use a pebble watch[^2].
