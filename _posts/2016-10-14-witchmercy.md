@@ -26,7 +26,7 @@ There are five bundle types:
 
 ## Solution
 Calculate the expected cost for **buying 50 or more boxes 
-under the condition that I can stop buying when I won the skin**.
+under the condition that I can stop buying bundles when I won the skin**.
 
 Here is the example:
 
