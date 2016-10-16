@@ -98,6 +98,6 @@ I bought **two 11-box bundles** and won the witch skin at **the 22nd try**!
 
 [^1]: This is from a [Korean post](http://snaketeacher1.tistory.com/288).
 [^2]: There are 4 Halloween legendary skins. By assumption 2, we can simply assume like that.
-[^3]: I currently have 1100 credits, and probably get more than 1900 credits after opening 50 boxes, which means that I can buy the skin by credit.
+[^3]: I currently have 1100 credits, and probably I'll get more than 1900 credits after opening 50 boxes, which means that I can buy the skin by credit.
 [^4]: The code is [here](https://github.com/yeonghoey/witchmercy)
 [^5]: The best solution of `p=1/40` case.
