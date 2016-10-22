@@ -27,6 +27,7 @@ sass:
 include: ["robots.txt"]
 exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile"]
 gems:
+  - jekyll-seo-tag
   - jekyll-sitemap
 
 compress_html:
