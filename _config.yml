@@ -32,6 +32,8 @@ gems:
 
 compress_html:
     clippings: all
+    ignore:
+      envs: ['dev']
 
 defaults:
   -

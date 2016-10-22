@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tmux split-window 'bundler exec jekyll serve --drafts'
+tmux split-window 'JEKYLL_ENV=dev bundler exec jekyll serve --drafts'
 tmux split-window 'bundler exec guard'
 
 # wait for jekyll is up.
