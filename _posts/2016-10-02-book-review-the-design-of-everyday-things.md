@@ -211,13 +211,14 @@ But for how the design concepts make sense to the programming world.
 
 
 ## Summary
-Technology is getting complicated.
-The speed of technology changes is far faster then the speed of human changes.
-The design problem is filling up this gap.  And the design concepts in this book are
-all for keeping things simple, less error-prone.
 
-Programming is no exception.  In some sense, programming is nothing but a logic design.
-With the concepts in mind, we would become a better programmer.
+Technology is getting complicated.
+The speed at which technology changes is far faster than the speed of human change.
+The design problem is filling up the gap, and the design concepts in this book are
+all about keeping things simple and less prone to error.
+
+Programming is no exception.  In some sense, programming is nothing but design for logic.
+With these concepts in mind, we can become better programmers.
 
 
 [^1]: It's actually [Spacemacs](http://spacemacs.org/), which is a plugin-powered *Emacs* with *Vim* key mappings.
