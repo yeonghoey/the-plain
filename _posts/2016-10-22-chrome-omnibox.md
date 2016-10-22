@@ -9,7 +9,7 @@ when you put text other than URLs.
 Incidentally, **did you know that you can search on whatever search engine
 you like in there?** Let me explain how to.
 
-## Search engines Configuration
+## Search engines configuration
 
 Open *Search engines* menu:  
 ![Guide1]({{ site.url }}/assets/omnibox-guide1.jpg)
@@ -46,5 +46,22 @@ Here is an example: (featuring [SymbolHound](http://symbolhound.com/))
 > http://symbolhound.com/?q=%s  
 
 
+## My Search engines configuration
+
+I listed my *Search engines* configuration for those who feel frustrated:
+
+```
+bookmarks     b   chrome://bookmarks/#q=%s
+history       h   chrome://history/?#q=%s
+github        gh  https://github.com/search?q=%s
+google        g   http://www.google.com/search?q=%s
+google image  i   http://www.google.com/search?tbm=isch&q=%s
+naver         n   https://search.naver.com/search.naver?query=%s
+naver endic   e   http://endic.naver.com/search.nhn?query=%s
+naver krdic   k   http://krdic.naver.com/search.nhn?query=%s
+symbolhound   s   http://symbolhound.com/?q=%s
+thesaurus     t   http://www.thesaurus.com/browse/%s
+youtube       y   https://www.youtube.com/results?search_query=%s
+```
 
 [^1]: You may have some search engine definitions in there, because Chrome  automatically identifies and registers search engines there.
