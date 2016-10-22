@@ -19,6 +19,32 @@ A window like following will show up:
 ![Guide2]({{ site.url }}/assets/omnibox-guide2.jpg)
 
 
-There are 3 columns in the *Other search engines* section.
-Each values signify `Name`, `Keyword` and `Search String` respectively.
+## How it works
 
+There are 3 columns in the *Other search engines*[^1].
+Each column signifies `Name`, `Keyword` and `Search String` respectively.
+
+Let's take a look at how each column works:
+
+![Usage]({{ site.url }}/assets/omnibox-usage.jpg)
+
+
+
+## Find out Search String
+
+To find out `Search String` for your favorite search engines,
+you need to do simple experiments.
+
+1. Enter a search word into the search engine.
+1. Recognize the word you just entered from the result URL.
+1. Replace it with `%s`
+
+Here is an example: (featuring [SymbolHound](http://symbolhound.com/))
+
+> http://symbolhound.com/  
+> http://symbolhound.com/?q=yeongho  
+> http://symbolhound.com/?q=%s  
+
+
+
+[^1]: You may have some search engine definitions in there, because Chrome  automatically identifies and registers search engines there.
