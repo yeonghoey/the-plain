@@ -145,7 +145,6 @@ DELETE n
 // Delete all notes and relationships
 MATCH (n)
 DETACH DELETE n
-
 ```
 
 
@@ -237,7 +236,6 @@ MATCH (n:Actor)
 RETURN n.name AS name
 UNION ALL MATCH (n:Movie)
 RETURN n.title AS name
-
 ```
 
 
